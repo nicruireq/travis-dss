@@ -9,3 +9,11 @@ install:
 script:
   - python hello.py
   - pytest -v -rs hello-test.py
+
+notifications:
+  email:
+   recipients:
+     -nicruireq.academic@outlook.com
+  on_success: never
+  on_failure: always
+
