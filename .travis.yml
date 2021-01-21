@@ -13,7 +13,7 @@ script:
 notifications:
   email:
    recipients:
-     -nicruireq.academic@outlook.com
+     -test@test.com
   on_success: never
   on_failure: always
 
